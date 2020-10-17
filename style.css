@@ -21,6 +21,7 @@ body {
 }
 
 .header {
+  background-color: #f2f5f1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 5px solid green;
@@ -44,7 +45,7 @@ body {
   padding: 8px 16px;
   text-decoration: none;
   color: black;
-  font-weight: 600px;
+  font-weight: 500;
 }
 
 .hero-container {
@@ -55,10 +56,52 @@ body {
 
 .hero-div-container-img {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: minmax(240px, 1fr);
   height: 100%;
   border: 5px solid purple;
   background: url("fotos/brooke-lark-kXQ3J7_2fpc-unsplash.jpg") center;
   background-size: cover;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
 
+.hero-title {
+  font-size: 80px;
+}
+
+.nosotros {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+.nosotros-contenido1 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+align-items: center;
+grid-gap: 1em;
+}
+
+#img-contenido1 {
+  max-width: 300px;
+}
+
+.text-contenido1 {
+  text-shadow: 1px black;
+}
+
+.nosotros-contenido2 {
+margin-top: 25px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+align-items: center;
+grid-gap: 1em;
+}
+
+#img-contenido2 {
+  max-width: 400px;
 }
